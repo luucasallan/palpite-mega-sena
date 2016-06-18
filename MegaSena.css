@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body {
+	background-color: #2577ac;
+}
+
+.corpo {
+	background-color: #00913f;
+	width: 700px;
+	height: 400px;
+	position: relative;
+	left: 300px;
+	top: 100px;
+	border-radius: 10px;
+	border: 3px solid #1f2a47;
+}
+
+img {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	top: -73px;
+	left: 9px;
+}
+
+h3 {
+	position: relative;
+	left: 63px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #4ff095;
+}
+
+p#aviso {
+	position: relative;
+	top: -75px;
+	margin-left: 10px;
+	color: #9e9d9d;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p#primeiro {
+	position: relative;
+	margin-left: 16px;
+	top: -85px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+p#primeiro input {
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15pt;
+	text-align: center;
+}
+
+div#resultado {
+	position: relative;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: white;
+	width: 450px;
+	height: 30px;
+	left: 115px;
+	bottom: 40px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+	padding-top: 9px;
+	
+}
+
+.enviar {
+	position: relative;
+	bottom: 0px;
+	left: 233px;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}

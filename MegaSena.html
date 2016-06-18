@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Mega Sena</title>
+	<link rel="stylesheet" href="MegaSena.css">
+	<script src="MegaSena.js"></script>
+</head>
+
+<body>
+	<div class="corpo">
+		<h3>Palpite Mega Sena</h3>
+		<img src="mega-sena.png" alt="mega-sena">
+		<p id="aviso">* Entre com a quantidade entre 6 e 15</p>
+
+		<p id="primeiro">
+			<label for="quantidade">Qual a quantidade de números:</label>
+			<input type="text" id="quantidade" maxlength="2" placeholder="0">
+		</p>
+
+		<div id="resultado"></div>
+
+		<input class="enviar" type="button" onclick="validar()" value="Ok">
+	</div>
+
+	<!--
+		Palpite Mega Sena:
+		. Entre com a quantidade de números a serrem sorteados, que deve ser de 6 a 15.
+		. Os números sorteados devem estar no intervalo de 1 a 60.
+		. Os números sorteados devem ser armazenados no vetor.
+		. Ao termino do sorteio mostre todos os números.
+	 -->
+</body>
+
+</html>
